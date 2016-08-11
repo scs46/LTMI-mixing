@@ -1,0 +1,19 @@
+LTMI-mixing README=============================================
+
+The code used by Sherwood et al. (2014, Nature) to calculate the
+parameter D is contained here, named get_all_w.pro.  This code
+requires only the omega field (vertical pressure velocity) but has
+options to compute humidity fluxes as well, in which case specific
+humidity data are also needed.
+
+If anyone successfully translates this into other languages
+(e.g. python) let me know (at s.sherwood@unsw.edu.au) and I will add
+it to this repository.
+
+The .save file in this directory is a land-sea mask required by the
+routine.
+
+Note these codes are also provided directly on the Author's web site
+since mid-2014.
+
+11/10/2016
