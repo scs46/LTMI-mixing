@@ -13,7 +13,21 @@ it to this repository.
 The .save file in this directory is a land-sea mask required by the
 routine.
 
+Input 
+Frequency	Variable		CMOR labels	Unit
+monthly		omega			wap  		[hPa/day]
+
+Output 
+This function calculates Deep mixing parameter D (no unit)
+
+Note: You have to modify the code either to print the value or to return the value to your main program.
+
+The definition of D = <dH(d)H(-w1)>/<-w2H(-w2)> (Sherwood et al., 2014).
+
+With the sample CanAM4 data provided, D is 0.522303.
+
+
 Note these codes are also provided directly on the Author's web site
 since mid-2014.
 
-11/10/2016
+Jul/28/2017

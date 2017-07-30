@@ -23,7 +23,9 @@ function get_all_w, wap, lon, lat, maxlat, D=D, plev=plev, normval=normval, $
 ; if PLEV not supplied, assume standard levels.
 
 l1 = (lon+360) mod 360
-whl = where(l1 gt 200 or l1 lt 45)  ; cool-ocean region
+; restricted measurements to tropical ocean regions from 160 W to 30 E 
+
+whl = where(l1 gt 200 or l1 lt 30)  ; cool-ocean region
 wht = where(abs(lat) le maxlat)        ;
 nmon = get_index(wap,4)
 
