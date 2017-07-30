@@ -24,7 +24,7 @@ Note: You have to modify the code either to print the value or to return the val
 
 The definition of D = <dH(d)H(-w1)>/<-w2H(-w2)> (Sherwood et al., 2014).
 
-
+With the sample CanAM4 data provided, D is 0.522303.
 
 
 Note these codes are also provided directly on the Author's web site
